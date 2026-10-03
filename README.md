@@ -164,7 +164,7 @@ The system is logically divided into four major components to ensure robustness,
 
 ### Part A: Document Ingestion & Structure-Aware Chunking
 **1. Technology & Libraries Used**
-- **marker-pdf & pypdf:** Used to extract text from PDFs. Marker provides state-of-the-art markdown conversion (preserving tables), while pypdf acts as a fast fallback for simpler documents.
+- **pdfplumber & PyMuPDF:** Used to extract text from PDFs. `pdfplumber` is the primary extractor because of its excellent table extraction capabilities (converting tables directly into clean Markdown strings), while `PyMuPDF` (fitz) acts as a robust fallback for complex, multi-column layouts.
 - **beautifulsoup4:** Used to parse HTML documents accurately.
 - **sqlite3:** Used to track ingestion progress and intermediate results. 
 
