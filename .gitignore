@@ -46,4 +46,4 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Expected Outputs (generated)
-./ExpectedOutputs
+ExpectedOutputs/
