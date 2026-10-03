@@ -1,0 +1,77 @@
+[
+  {
+    "bid_id": "Bid1",
+    "query": "bid number Student and Staff Computing Devices JA-207652",
+    "expected": "JA-207652"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "final due date deadline submission July 2024 Addendum",
+    "expected": "July 9, 2024"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "bid submission method electronic portal",
+    "expected": "iSupplier"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "pre bid meeting date video conference teams",
+    "expected": "June 10, 2024"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "contract duration term years renewal",
+    "expected": "three (3) year"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "installation deployment white glove services setup",
+    "expected": "white glove delivery"
+  },
+  {
+    "bid_id": "Bid1",
+    "query": "delivery date starting timeline project",
+    "expected": "September of 2024"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "Bid Number BPM044557 solicitation",
+    "expected": "BPM044557"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "delivery date laptops due 06/10/2024 deadline",
+    "expected": "06/10/2024"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "payment terms invoice Dell 10 days",
+    "expected": "10 days"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "additional documentation required Mercury Affidavit",
+    "expected": "Mercury Affidavit"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "manufacturer registration Dell",
+    "expected": "Dell"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "model number requested Latitude 5550",
+    "expected": "Latitude 5550"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "exact part number SKU 210-BLYZ",
+    "expected": "210-BLYZ"
+  },
+  {
+    "bid_id": "Bid2",
+    "query": "cooperative contract master vehicle 2015",
+    "expected": "Desktop, Laptop and Tablet 2015 Master Contract"
+  }
+]
