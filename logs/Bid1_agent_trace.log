@@ -1,0 +1,33 @@
+[06:15:57] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: EXTRACTION_ERROR | Latency: 8582ms
+
+[06:15:57] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3ms
+
+[06:15:57] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 18ms
+
+[06:15:59] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 2497ms
+
+[06:16:31] [RetrievalAgent] Field: 'Part_no' | Status: DONE | Latency: 32111ms
+
+[06:16:32] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 43760ms
+
+[06:16:32] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 44187ms
+
+[06:16:36] [ExtractionAgent] Field: 'Part_no' | Status: DONE | Latency: 4530ms
+
+[06:16:36] [ReconciliationAgent] Field: 'Part_no' | Status: DONE | Latency: 1ms
+
+[06:16:37] [ExtractionAgent] Field: 'Model_no' | Status: DONE | Latency: 5120ms
+
+[06:16:37] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 5556ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:16:37] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 0ms
+
+[06:16:37] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 5ms
+
+[06:16:40] [ValidatorAgent] Field: 'Part_no' | Status: DONE | Latency: 3986ms
+
+[06:16:41] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 4116ms
+
+[06:16:42] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 4216ms
+

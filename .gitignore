@@ -21,7 +21,6 @@ data/
 
 
 # Logs & Traces
-*.log
 *.jsonl
 
 # Qdrant local storage
@@ -43,5 +42,3 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# Expected Outputs (generated)
-ExpectedOutputs/

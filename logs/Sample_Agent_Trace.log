@@ -1,0 +1,223 @@
+=== FULL EXTRACTION RUN TRACE (20 FIELDS) ===
+
+[10:00:00] [RetrievalAgent] Field: 'Bid Number' | Status: DONE | Latency: 302ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:02] [ExtractionAgent] Field: 'Bid Number' | Status: DONE | Latency: 2462ms
+  ↳ Extracted/Output: JA-207652
+  ↳ Sources Cited: 1 chunk(s)
+
+[10:00:02] [ReconciliationAgent] Field: 'Bid Number' | Status: DONE | Latency: 1ms
+
+[10:00:03] [ValidatorAgent] Field: 'Bid Number' | Status: DONE | Latency: 1190ms
+
+[10:00:05] [RetrievalAgent] Field: 'Title' | Status: DONE | Latency: 163ms
+  ↳ Sources Cited: 6 chunk(s)
+
+[10:00:07] [ExtractionAgent] Field: 'Title' | Status: DONE | Latency: 3053ms
+  ↳ Extracted/Output: Student and Staff Computing Devices
+  ↳ Sources Cited: 1 chunk(s)
+
+[10:00:07] [ReconciliationAgent] Field: 'Title' | Status: DONE | Latency: 1ms
+
+[10:00:07] [ValidatorAgent] Field: 'Title' | Status: DONE | Latency: 996ms
+
+[10:00:09] [RetrievalAgent] Field: 'Due Date' | Status: DONE | Latency: 197ms
+  ↳ Sources Cited: 6 chunk(s)
+
+[10:00:11] [ExtractionAgent] Field: 'Due Date' | Status: DONE | Latency: 2762ms
+  ↳ Extracted/Output: July 9, 2024 at 2:00 PM CST
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:12] [ReconciliationAgent] Field: 'Due Date' | Status: DONE | Latency: 12ms
+  ↳ Note: Original value overridden. Found Addendum 2 which extended the due date.
+
+[10:00:13] [ValidatorAgent] Field: 'Due Date' | Status: DONE | Latency: 948ms
+
+[10:00:15] [RetrievalAgent] Field: 'Bid Submission Type' | Status: DONE | Latency: 332ms
+  ↳ Sources Cited: 5 chunk(s)
+
+[10:00:18] [ExtractionAgent] Field: 'Bid Submission Type' | Status: DONE | Latency: 2759ms
+  ↳ Extracted/Output: Online via electronic system (iSupplier portal)
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:19] [ReconciliationAgent] Field: 'Bid Submission Type' | Status: DONE | Latency: 12ms
+
+[10:00:19] [ValidatorAgent] Field: 'Bid Submission Type' | Status: DONE | Latency: 948ms
+
+[10:00:21] [RetrievalAgent] Field: 'Term of Bid' | Status: DONE | Latency: 331ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:00:22] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 2339ms
+  ↳ Extracted/Output: Three (3) year initial term
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:22] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 8ms
+
+[10:00:22] [ValidatorAgent] Field: 'Term of Bid' | Status: DONE | Latency: 1264ms
+
+[10:00:23] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 299ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:00:25] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 1478ms
+  ↳ Extracted/Output: June 10, 2024 at 14:00 CST via TEAMS
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:26] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 7ms
+
+[10:00:27] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 1138ms
+
+[10:00:29] [RetrievalAgent] Field: 'Installation' | Status: DONE | Latency: 309ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:31] [ExtractionAgent] Field: 'Installation' | Status: DONE | Latency: 2337ms
+  ↳ Extracted/Output: Deliveries and deployments must incorporate white glove services
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:31] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 2ms
+
+[10:00:32] [ValidatorAgent] Field: 'Installation' | Status: DONE | Latency: 1076ms
+
+[10:00:34] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 290ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:00:36] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3235ms
+  ↳ Extracted/Output: None
+  ↳ Sources Cited: 0 chunk(s)
+
+[10:00:37] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 13ms
+
+[10:00:38] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 1409ms
+
+[10:00:39] [RetrievalAgent] Field: 'Delivery Date' | Status: DONE | Latency: 302ms
+  ↳ Sources Cited: 5 chunk(s)
+
+[10:00:42] [ExtractionAgent] Field: 'Delivery Date' | Status: DONE | Latency: 3185ms
+  ↳ Extracted/Output: Starting in September of 2024
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:42] [ReconciliationAgent] Field: 'Delivery Date' | Status: DONE | Latency: 5ms
+
+[10:00:42] [ValidatorAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1121ms
+
+[10:00:44] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 269ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:45] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 1864ms
+  ↳ Extracted/Output: None
+  ↳ Sources Cited: 0 chunk(s)
+
+[10:00:45] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3ms
+
+[10:00:45] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 944ms
+
+[10:00:47] [RetrievalAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 199ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:00:49] [ExtractionAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 3404ms
+  ↳ Extracted/Output: Pertinent literature/documentation
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:49] [ReconciliationAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 1ms
+
+[10:00:50] [ValidatorAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 1251ms
+
+[10:00:51] [RetrievalAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 368ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:00:53] [ExtractionAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 2401ms
+  ↳ Extracted/Output: Google Management
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:00:53] [ReconciliationAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 13ms
+
+[10:00:54] [ValidatorAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 942ms
+
+[10:00:56] [RetrievalAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 228ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:57] [ExtractionAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 2643ms
+  ↳ Extracted/Output: Central Texas Purchasing Alliance
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:00:57] [ReconciliationAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 2ms
+
+[10:00:57] [ValidatorAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 1441ms
+
+[10:00:58] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 281ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:01:00] [ExtractionAgent] Field: 'Model_no' | Status: DONE | Latency: 2687ms
+  ↳ Extracted/Output: None
+  ↳ Sources Cited: 0 chunk(s)
+
+[10:01:01] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 5ms
+
+[10:01:01] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 849ms
+
+[10:01:03] [RetrievalAgent] Field: 'Part_no' | Status: DONE | Latency: 349ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:01:06] [ExtractionAgent] Field: 'Part_no' | Status: DONE | Latency: 1320ms
+  ↳ Extracted/Output: None
+  ↳ Sources Cited: 0 chunk(s)
+
+[10:01:07] [ReconciliationAgent] Field: 'Part_no' | Status: DONE | Latency: 3ms
+
+[10:01:08] [ValidatorAgent] Field: 'Part_no' | Status: DONE | Latency: 1158ms
+
+[10:01:09] [RetrievalAgent] Field: 'Product' | Status: DONE | Latency: 381ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[10:01:11] [ExtractionAgent] Field: 'Product' | Status: DONE | Latency: 2466ms
+  ↳ Extracted/Output: Tier 1 Small Student Chromebook Laptop
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:01:12] [ReconciliationAgent] Field: 'Product' | Status: DONE | Latency: 15ms
+
+[10:01:12] [ValidatorAgent] Field: 'Product' | Status: DONE | Latency: 950ms
+
+[10:01:14] [RetrievalAgent] Field: 'contact_info' | Status: DONE | Latency: 398ms
+  ↳ Sources Cited: 5 chunk(s)
+
+[10:01:15] [ExtractionAgent] Field: 'contact_info' | Status: DONE | Latency: 2308ms
+  ↳ Extracted/Output: JASMINE ALZATE, JALZATE@dallasisd.org
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:01:15] [ReconciliationAgent] Field: 'contact_info' | Status: DONE | Latency: 12ms
+
+[10:01:16] [ValidatorAgent] Field: 'contact_info' | Status: DONE | Latency: 1469ms
+
+[10:01:17] [RetrievalAgent] Field: 'company_name' | Status: DONE | Latency: 370ms
+  ↳ Sources Cited: 6 chunk(s)
+
+[10:01:19] [ExtractionAgent] Field: 'company_name' | Status: DONE | Latency: 2378ms
+  ↳ Extracted/Output: Dallas Independent School District
+  ↳ Sources Cited: 2 chunk(s)
+
+[10:01:20] [ReconciliationAgent] Field: 'company_name' | Status: DONE | Latency: 7ms
+
+[10:01:20] [ValidatorAgent] Field: 'company_name' | Status: DONE | Latency: 853ms
+
+[10:01:21] [RetrievalAgent] Field: 'Bid Summary' | Status: DONE | Latency: 234ms
+  ↳ Sources Cited: 5 chunk(s)
+
+[10:01:23] [ExtractionAgent] Field: 'Bid Summary' | Status: DONE | Latency: 1449ms
+  ↳ Extracted/Output: Solicitation for Student and Staff Computing Devices
+  ↳ Sources Cited: 1 chunk(s)
+
+[10:01:23] [ReconciliationAgent] Field: 'Bid Summary' | Status: DONE | Latency: 13ms
+
+[10:01:24] [ValidatorAgent] Field: 'Bid Summary' | Status: DONE | Latency: 975ms
+
+[10:01:26] [RetrievalAgent] Field: 'Product Specification' | Status: DONE | Latency: 174ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:01:28] [ExtractionAgent] Field: 'Product Specification' | Status: DONE | Latency: 1480ms
+  ↳ Extracted/Output: Student Tablet Minimum Requirements: Enterprise Management Ready
+  ↳ Sources Cited: 3 chunk(s)
+
+[10:01:28] [ReconciliationAgent] Field: 'Product Specification' | Status: DONE | Latency: 4ms
+
+[10:01:29] [ValidatorAgent] Field: 'Product Specification' | Status: DONE | Latency: 1004ms
+

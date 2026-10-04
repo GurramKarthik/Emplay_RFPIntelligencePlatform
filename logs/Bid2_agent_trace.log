@@ -1,0 +1,542 @@
+[05:45:29] [RetrievalAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 10553ms
+
+[05:45:29] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 2ms
+
+[05:45:29] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 1ms
+
+[05:45:32] [ValidatorAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 3547ms
+
+[05:47:16] [RetrievalAgent] Field: 'Title' | Status: DONE | Latency: 118512ms
+
+[05:47:16] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 118513ms
+
+[05:47:17] [RetrievalAgent] Field: 'Installation' | Status: DONE | Latency: 104396ms
+
+[05:48:21] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: EXTRACTION_ERROR | Latency: 64142ms
+
+[05:48:21] [ExtractionAgent] Field: 'Title' | Status: EXTRACTION_ERROR | Latency: 64152ms
+
+[05:48:21] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[05:48:21] [ReconciliationAgent] Field: 'Title' | Status: DONE | Latency: 0ms
+
+[05:48:21] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 2ms
+
+[05:48:21] [ValidatorAgent] Field: 'Title' | Status: DONE | Latency: 1ms
+
+[05:48:21] [ExtractionAgent] Field: 'Installation' | Status: EXTRACTION_ERROR | Latency: 64688ms
+
+[05:48:21] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 0ms
+
+[05:48:21] [ValidatorAgent] Field: 'Installation' | Status: DONE | Latency: 1ms
+
+[05:48:24] [RetrievalAgent] Field: 'Delivery Date' | Status: EXTRACTION_ERROR | Latency: 3214ms
+
+[05:48:24] [ExtractionAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1ms
+
+[05:48:24] [ReconciliationAgent] Field: 'Delivery Date' | Status: DONE | Latency: 0ms
+
+[05:48:27] [ValidatorAgent] Field: 'Delivery Date' | Status: EXTRACTION_ERROR | Latency: 2499ms
+
+[05:48:28] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 7177ms
+
+[05:48:28] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 6916ms
+
+[05:48:32] [RetrievalAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 5494ms
+
+[05:49:32] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: EXTRACTION_ERROR | Latency: 64275ms
+
+[05:49:32] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3ms
+
+[05:49:32] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 1ms
+
+[05:49:33] [ExtractionAgent] Field: 'Payment Terms' | Status: EXTRACTION_ERROR | Latency: 65170ms
+
+[05:49:33] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 0ms
+
+[05:49:33] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 0ms
+
+[05:49:37] [ExtractionAgent] Field: 'Any Additional Documentation Required' | Status: EXTRACTION_ERROR | Latency: 64846ms
+
+[05:49:37] [ReconciliationAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 7ms
+
+[05:49:37] [ValidatorAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 2ms
+
+[05:49:38] [RetrievalAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 6080ms
+
+[05:49:39] [RetrievalAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 5810ms
+
+[05:49:42] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 5072ms
+
+[05:50:42] [ExtractionAgent] Field: 'MFG for Registration' | Status: EXTRACTION_ERROR | Latency: 64228ms
+
+[05:50:42] [ReconciliationAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 2ms
+
+[05:50:42] [ValidatorAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 0ms
+
+[05:50:43] [ExtractionAgent] Field: 'Contract or Cooperative to use' | Status: EXTRACTION_ERROR | Latency: 64143ms
+
+[05:50:43] [ReconciliationAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 1ms
+
+[05:50:43] [ValidatorAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 0ms
+
+[05:50:45] [ExtractionAgent] Field: 'Model_no' | Status: EXTRACTION_ERROR | Latency: 63212ms
+
+[05:50:45] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 38ms
+
+[05:50:45] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 0ms
+
+[05:50:49] [RetrievalAgent] Field: 'Part_no' | Status: DONE | Latency: 6259ms
+
+[05:50:49] [RetrievalAgent] Field: 'Product' | Status: DONE | Latency: 6220ms
+
+[05:50:51] [RetrievalAgent] Field: 'contact_info' | Status: DONE | Latency: 5859ms
+
+[05:51:53] [ExtractionAgent] Field: 'Part_no' | Status: EXTRACTION_ERROR | Latency: 64572ms
+
+[05:51:53] [ReconciliationAgent] Field: 'Part_no' | Status: DONE | Latency: 0ms
+
+[05:51:53] [ValidatorAgent] Field: 'Part_no' | Status: DONE | Latency: 0ms
+
+[05:51:54] [ExtractionAgent] Field: 'Product' | Status: EXTRACTION_ERROR | Latency: 64748ms
+
+[05:51:54] [ReconciliationAgent] Field: 'Product' | Status: DONE | Latency: 0ms
+
+[05:51:54] [ValidatorAgent] Field: 'Product' | Status: DONE | Latency: 0ms
+
+[05:51:55] [ExtractionAgent] Field: 'contact_info' | Status: EXTRACTION_ERROR | Latency: 63715ms
+
+[05:51:55] [ReconciliationAgent] Field: 'contact_info' | Status: DONE | Latency: 0ms
+
+[05:51:55] [ValidatorAgent] Field: 'contact_info' | Status: DONE | Latency: 0ms
+
+[05:51:59] [RetrievalAgent] Field: 'company_name' | Status: DONE | Latency: 5979ms
+
+[05:52:00] [RetrievalAgent] Field: 'Product Specification' | Status: DONE | Latency: 5729ms
+
+[05:53:04] [ExtractionAgent] Field: 'Product Specification' | Status: EXTRACTION_ERROR | Latency: 63860ms
+
+[05:53:04] [ExtractionAgent] Field: 'company_name' | Status: EXTRACTION_ERROR | Latency: 64571ms
+
+[05:53:04] [ReconciliationAgent] Field: 'Product Specification' | Status: DONE | Latency: 2ms
+
+[05:53:04] [ReconciliationAgent] Field: 'company_name' | Status: DONE | Latency: 1ms
+
+[05:53:04] [ValidatorAgent] Field: 'Product Specification' | Status: DONE | Latency: 1ms
+
+[05:53:04] [ValidatorAgent] Field: 'company_name' | Status: DONE | Latency: 2ms
+
+[06:03:40] [RetrievalAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 5057ms
+
+[06:03:40] [ExtractionAgent] Field: 'Title' | Status: DONE | Latency: 1ms
+
+[06:03:40] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 1ms
+
+[06:03:40] [ReconciliationAgent] Field: 'Title' | Status: DONE | Latency: 0ms
+
+[06:03:40] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 3ms
+
+[06:03:42] [ValidatorAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 2307ms
+
+[06:03:42] [ValidatorAgent] Field: 'Title' | Status: EXTRACTION_ERROR | Latency: 2337ms
+
+[06:03:46] [RetrievalAgent] Field: 'Installation' | Status: EXTRACTION_ERROR | Latency: 3443ms
+
+[06:03:46] [ExtractionAgent] Field: 'Installation' | Status: DONE | Latency: 1ms
+
+[06:03:46] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 16ms
+
+[06:03:48] [ValidatorAgent] Field: 'Installation' | Status: EXTRACTION_ERROR | Latency: 2300ms
+
+[06:04:10] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 35157ms
+
+[06:04:10] [RetrievalAgent] Field: 'Delivery Date' | Status: DONE | Latency: 21875ms
+
+[06:04:10] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 27842ms
+
+[06:05:14] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: EXTRACTION_ERROR | Latency: 64285ms
+
+[06:05:14] [ExtractionAgent] Field: 'Delivery Date' | Status: EXTRACTION_ERROR | Latency: 64256ms
+
+[06:05:14] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: EXTRACTION_ERROR | Latency: 64116ms
+
+[06:05:14] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 1ms
+
+[06:05:14] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 2ms
+
+[06:05:14] [ReconciliationAgent] Field: 'Delivery Date' | Status: DONE | Latency: 4ms
+
+[06:05:14] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[06:05:14] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 2ms
+
+[06:05:14] [ValidatorAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1ms
+
+[06:05:22] [RetrievalAgent] Field: 'Payment Terms' | Status: EXTRACTION_ERROR | Latency: 7988ms
+
+[06:05:22] [RetrievalAgent] Field: 'MFG for Registration' | Status: EXTRACTION_ERROR | Latency: 7912ms
+
+[06:05:22] [ExtractionAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 59ms
+
+[06:05:22] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 12ms
+
+[06:05:23] [ReconciliationAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 7ms
+
+[06:05:23] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 67ms
+
+[06:05:26] [ValidatorAgent] Field: 'MFG for Registration' | Status: EXTRACTION_ERROR | Latency: 3674ms
+
+[06:05:26] [ValidatorAgent] Field: 'Payment Terms' | Status: EXTRACTION_ERROR | Latency: 3777ms
+
+[06:05:27] [RetrievalAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 13035ms
+
+[06:05:32] [RetrievalAgent] Field: 'Contract or Cooperative to use' | Status: EXTRACTION_ERROR | Latency: 6120ms
+
+[06:05:32] [ExtractionAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 1ms
+
+[06:05:32] [ReconciliationAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 0ms
+
+[06:05:34] [ValidatorAgent] Field: 'Contract or Cooperative to use' | Status: EXTRACTION_ERROR | Latency: 1984ms
+
+[06:05:35] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 8169ms
+
+[06:05:39] [RetrievalAgent] Field: 'Part_no' | Status: DONE | Latency: 4981ms
+
+[06:06:34] [ExtractionAgent] Field: 'Any Additional Documentation Required' | Status: EXTRACTION_ERROR | Latency: 66845ms
+
+[06:06:34] [ReconciliationAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 0ms
+
+[06:06:34] [ValidatorAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 1ms
+
+[06:06:39] [RetrievalAgent] Field: 'Product' | Status: DONE | Latency: 4829ms
+
+[06:06:40] [ExtractionAgent] Field: 'Model_no' | Status: EXTRACTION_ERROR | Latency: 65130ms
+
+[06:06:40] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 0ms
+
+[06:06:40] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 0ms
+
+[06:06:44] [ExtractionAgent] Field: 'Part_no' | Status: EXTRACTION_ERROR | Latency: 64110ms
+
+[06:06:44] [ReconciliationAgent] Field: 'Part_no' | Status: DONE | Latency: 0ms
+
+[06:06:44] [ValidatorAgent] Field: 'Part_no' | Status: DONE | Latency: 0ms
+
+[06:06:45] [RetrievalAgent] Field: 'contact_info' | Status: DONE | Latency: 4775ms
+
+[06:06:49] [RetrievalAgent] Field: 'company_name' | Status: DONE | Latency: 5458ms
+
+[06:07:43] [ExtractionAgent] Field: 'Product' | Status: EXTRACTION_ERROR | Latency: 63958ms
+
+[06:07:43] [ReconciliationAgent] Field: 'Product' | Status: DONE | Latency: 0ms
+
+[06:07:43] [ValidatorAgent] Field: 'Product' | Status: DONE | Latency: 0ms
+
+[06:07:48] [RetrievalAgent] Field: 'Product Specification' | Status: DONE | Latency: 4576ms
+
+[06:07:49] [ExtractionAgent] Field: 'contact_info' | Status: EXTRACTION_ERROR | Latency: 64848ms
+
+[06:07:49] [ReconciliationAgent] Field: 'contact_info' | Status: DONE | Latency: 1ms
+
+[06:07:49] [ValidatorAgent] Field: 'contact_info' | Status: DONE | Latency: 0ms
+
+[06:07:55] [ExtractionAgent] Field: 'company_name' | Status: EXTRACTION_ERROR | Latency: 66086ms
+
+[06:07:55] [ReconciliationAgent] Field: 'company_name' | Status: DONE | Latency: 0ms
+
+[06:07:55] [ValidatorAgent] Field: 'company_name' | Status: DONE | Latency: 1ms
+
+[06:08:53] [ExtractionAgent] Field: 'Product Specification' | Status: EXTRACTION_ERROR | Latency: 64995ms
+
+[06:08:53] [ReconciliationAgent] Field: 'Product Specification' | Status: DONE | Latency: 0ms
+
+[06:08:53] [ValidatorAgent] Field: 'Product Specification' | Status: DONE | Latency: 0ms
+
+[06:11:15] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: EXTRACTION_ERROR | Latency: 7109ms
+
+[06:11:15] [RetrievalAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 7134ms
+
+[06:11:15] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[06:11:15] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 2ms
+
+[06:11:15] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[06:11:15] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 24ms
+
+[06:11:18] [ValidatorAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 2349ms
+
+[06:11:18] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: EXTRACTION_ERROR | Latency: 2349ms
+
+[06:11:22] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: EXTRACTION_ERROR | Latency: 4067ms
+
+[06:11:22] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 34ms
+
+[06:11:22] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 0ms
+
+[06:11:24] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: EXTRACTION_ERROR | Latency: 1947ms
+
+[06:11:37] [RetrievalAgent] Field: 'Installation' | Status: DONE | Latency: 19657ms
+
+[06:11:37] [RetrievalAgent] Field: 'Delivery Date' | Status: DONE | Latency: 13579ms
+
+[06:11:37] [RetrievalAgent] Field: 'Title' | Status: DONE | Latency: 29271ms
+
+[06:12:41] [ExtractionAgent] Field: 'Delivery Date' | Status: EXTRACTION_ERROR | Latency: 63731ms
+
+[06:12:41] [ExtractionAgent] Field: 'Title' | Status: EXTRACTION_ERROR | Latency: 63666ms
+
+[06:12:41] [ReconciliationAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1ms
+
+[06:12:41] [ReconciliationAgent] Field: 'Title' | Status: DONE | Latency: 2ms
+
+[06:12:41] [ValidatorAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1ms
+
+[06:12:41] [ValidatorAgent] Field: 'Title' | Status: DONE | Latency: 0ms
+
+[06:12:41] [ExtractionAgent] Field: 'Installation' | Status: EXTRACTION_ERROR | Latency: 64104ms
+
+[06:12:41] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 0ms
+
+[06:12:41] [ValidatorAgent] Field: 'Installation' | Status: DONE | Latency: 0ms
+
+[06:12:45] [RetrievalAgent] Field: 'Any Additional Documentation Required' | Status: EXTRACTION_ERROR | Latency: 3543ms
+
+[06:12:45] [ExtractionAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 24ms
+
+[06:12:45] [ReconciliationAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 40ms
+
+[06:12:45] [RetrievalAgent] Field: 'Payment Terms' | Status: EXTRACTION_ERROR | Latency: 3810ms
+
+[06:12:45] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 1ms
+
+[06:12:45] [RetrievalAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 3487ms
+
+[06:12:45] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 0ms
+
+[06:12:46] [ValidatorAgent] Field: 'Any Additional Documentation Required' | Status: EXTRACTION_ERROR | Latency: 1603ms
+
+[06:12:46] [ValidatorAgent] Field: 'Payment Terms' | Status: EXTRACTION_ERROR | Latency: 1520ms
+
+[06:12:50] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 3358ms
+
+[06:12:50] [RetrievalAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 3594ms
+
+[06:25:38] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: EXTRACTION_ERROR | Latency: 6852ms
+
+[06:25:38] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[06:25:38] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 0ms
+
+[06:25:41] [RetrievalAgent] Field: 'Title' | Status: DONE | Latency: 10070ms
+
+[06:25:41] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 3222ms
+
+[06:25:41] [RetrievalAgent] Field: 'Term of Bid' | Status: DONE | Latency: 10333ms
+
+[06:25:44] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 3054ms
+
+[06:25:44] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 0ms
+
+[06:25:45] [ExtractionAgent] Field: 'Title' | Status: DONE | Latency: 3839ms
+  ↳ Extracted/Output: Dell Laptops w/Extended Warranty
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:25:45] [ReconciliationAgent] Field: 'Title' | Status: DONE | Latency: 5ms
+
+[06:25:47] [RetrievalAgent] Field: 'Installation' | Status: DONE | Latency: 5883ms
+
+[06:25:48] [ValidatorAgent] Field: 'Term of Bid' | Status: DONE | Latency: 3274ms
+
+[06:25:48] [ValidatorAgent] Field: 'Title' | Status: DONE | Latency: 3394ms
+
+[06:25:51] [ExtractionAgent] Field: 'Installation' | Status: DONE | Latency: 3660ms
+
+[06:25:51] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 0ms
+
+[06:25:54] [ValidatorAgent] Field: 'Installation' | Status: DONE | Latency: 3278ms
+
+[06:25:55] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 7151ms
+
+[06:25:55] [RetrievalAgent] Field: 'Delivery Date' | Status: DONE | Latency: 6539ms
+
+[06:25:58] [ExtractionAgent] Field: 'Delivery Date' | Status: DONE | Latency: 3514ms
+  ↳ Extracted/Output: Within 45 days of Award
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:25:58] [ReconciliationAgent] Field: 'Delivery Date' | Status: DONE | Latency: 1ms
+
+[06:25:58] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3638ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[06:25:58] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 0ms
+
+[06:26:00] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 6161ms
+
+[06:26:02] [ValidatorAgent] Field: 'Delivery Date' | Status: DONE | Latency: 3362ms
+
+[06:26:02] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3243ms
+
+[06:26:03] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3258ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[06:26:03] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 2ms
+
+[06:26:06] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 2626ms
+
+[06:26:10] [RetrievalAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 7894ms
+
+[06:26:10] [RetrievalAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 8018ms
+
+[06:26:14] [ExtractionAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 4596ms
+  ↳ Extracted/Output: Dell
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:26:14] [ExtractionAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 4753ms
+  ↳ Extracted/Output: Mercury Affidavit
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:26:14] [ReconciliationAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 13ms
+
+[06:26:14] [ReconciliationAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 7ms
+
+[06:26:17] [RetrievalAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 10711ms
+
+[06:26:19] [ValidatorAgent] Field: 'MFG for Registration' | Status: DONE | Latency: 4599ms
+
+[06:26:19] [ValidatorAgent] Field: 'Any Additional Documentation Required' | Status: DONE | Latency: 4721ms
+
+[06:26:21] [ExtractionAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 4454ms
+  ↳ Extracted/Output: Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:26:21] [ReconciliationAgent] Field: 'Contract or Cooperative to use' | Status: DONE | Latency: 1ms
+
+[06:26:25] [ValidatorAgent] Field: 'Contract or Cooperative to use' | Status: EXTRACTION_ERROR | Latency: 4171ms
+
+[06:26:32] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 12748ms
+
+[06:26:32] [RetrievalAgent] Field: 'Part_no' | Status: DONE | Latency: 13132ms
+
+[06:26:37] [RetrievalAgent] Field: 'Product' | Status: DONE | Latency: 11269ms
+
+[06:27:09] [ExtractionAgent] Field: 'Model_no' | Status: DONE | Latency: 37438ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:27:09] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 4ms
+
+[06:27:10] [ExtractionAgent] Field: 'Part_no' | Status: DONE | Latency: 37408ms
+  ↳ Extracted/Output: SI# CC7802
+  ↳ Sources Cited: 1 chunk(s)
+
+[06:27:10] [ReconciliationAgent] Field: 'Part_no' | Status: DONE | Latency: 1ms
+
+[06:27:14] [ExtractionAgent] Field: 'Product' | Status: DONE | Latency: 36778ms
+  ↳ Extracted/Output: Dell Latitude 5550, Dell Thunderbolt 4 Dock – WD22TB4
+  ↳ Sources Cited: 3 chunk(s)
+
+[06:27:14] [ReconciliationAgent] Field: 'Product' | Status: DONE | Latency: 1ms
+
+[06:27:14] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 4542ms
+
+[06:27:14] [ValidatorAgent] Field: 'Part_no' | Status: DONE | Latency: 4256ms
+
+[06:27:18] [ValidatorAgent] Field: 'Product' | Status: DONE | Latency: 3989ms
+
+[06:27:27] [RetrievalAgent] Field: 'contact_info' | Status: DONE | Latency: 13340ms
+
+[06:27:29] [RetrievalAgent] Field: 'company_name' | Status: DONE | Latency: 15030ms
+
+[06:27:31] [RetrievalAgent] Field: 'Product Specification' | Status: DONE | Latency: 13024ms
+
+[06:27:33] [ExtractionAgent] Field: 'contact_info' | Status: DONE | Latency: 5757ms
+  ↳ Extracted/Output: Procurement Officer / Agency POC: Tamaira Hawkins, Email: thawkins@treasurer.state.md.us, Phone: 410-260-7533, Address: MD State Treasurer’s Office...
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:27:33] [ReconciliationAgent] Field: 'contact_info' | Status: DONE | Latency: 2ms
+
+[06:27:34] [ExtractionAgent] Field: 'company_name' | Status: DONE | Latency: 4632ms
+  ↳ Extracted/Output: State Treasurer's Office
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:27:34] [ReconciliationAgent] Field: 'company_name' | Status: DONE | Latency: 1ms
+
+[06:27:36] [ExtractionAgent] Field: 'Product Specification' | Status: DONE | Latency: 5258ms
+  ↳ Extracted/Output: Dell Latitude 5550 (SI# CC7802): Intel Core Ultra 5 125U processor (12 MB cache, 12 cores, 14 threads, up to 4.3 GHz Turbo), Windows 11 Pro, 16 GB ...
+  ↳ Sources Cited: 6 chunk(s)
+
+[06:27:36] [ReconciliationAgent] Field: 'Product Specification' | Status: DONE | Latency: 1ms
+
+[06:27:38] [ValidatorAgent] Field: 'contact_info' | Status: DONE | Latency: 4689ms
+
+[06:27:38] [ValidatorAgent] Field: 'company_name' | Status: DONE | Latency: 4378ms
+
+[06:27:40] [ValidatorAgent] Field: 'Product Specification' | Status: DONE | Latency: 4070ms
+
+[06:35:15] [RetrievalAgent] Field: 'Term of Bid' | Status: EXTRACTION_ERROR | Latency: 7965ms
+
+[06:35:15] [ExtractionAgent] Field: 'Term of Bid' | Status: DONE | Latency: 14ms
+
+[06:35:15] [ReconciliationAgent] Field: 'Term of Bid' | Status: DONE | Latency: 8ms
+
+[06:35:20] [RetrievalAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 13148ms
+
+[06:35:20] [ValidatorAgent] Field: 'Term of Bid' | Status: DONE | Latency: 5288ms
+
+[06:35:20] [RetrievalAgent] Field: 'Installation' | Status: DONE | Latency: 13902ms
+
+[06:35:25] [ExtractionAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 5073ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[06:35:25] [ReconciliationAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 1ms
+
+[06:35:26] [ExtractionAgent] Field: 'Installation' | Status: DONE | Latency: 5568ms
+  ↳ Sources Cited: 2 chunk(s)
+
+[06:35:26] [ReconciliationAgent] Field: 'Installation' | Status: DONE | Latency: 0ms
+
+[06:35:27] [ValidatorAgent] Field: 'Pre Bid Meeting' | Status: DONE | Latency: 2347ms
+
+[06:35:28] [RetrievalAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 7724ms
+
+[06:35:29] [ValidatorAgent] Field: 'Installation' | Status: DONE | Latency: 2997ms
+
+[06:35:31] [ExtractionAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3343ms
+  ↳ Sources Cited: 4 chunk(s)
+
+[06:35:31] [ReconciliationAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 1ms
+
+[06:35:34] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 6326ms
+
+[06:35:34] [RetrievalAgent] Field: 'Model_no' | Status: DONE | Latency: 5183ms
+
+[06:35:34] [ValidatorAgent] Field: 'Bid Bond Requirement' | Status: DONE | Latency: 3357ms
+
+[06:35:38] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3779ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[06:35:38] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 0ms
+
+[06:35:38] [ExtractionAgent] Field: 'Model_no' | Status: DONE | Latency: 3464ms
+  ↳ Extracted/Output: Dell Latitude 5550 and Dell Thunderbolt 4 Dock – WD22TB4
+  ↳ Sources Cited: 1 chunk(s)
+
+[06:35:38] [ReconciliationAgent] Field: 'Model_no' | Status: DONE | Latency: 1ms
+
+[06:35:41] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3016ms
+
+[06:35:41] [ValidatorAgent] Field: 'Model_no' | Status: DONE | Latency: 2877ms
+
+[06:37:21] [RetrievalAgent] Field: 'qa_response' | Status: DONE | Latency: 10483ms
+
+[06:37:26] [QAAgent] Field: 'global' | Status: DONE | Latency: 4478ms
+
+[06:39:53] [RetrievalAgent] Field: 'Payment Terms' | Status: DONE | Latency: 7794ms
+
+[06:39:56] [ExtractionAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3472ms
+  ↳ Sources Cited: 3 chunk(s)
+
+[06:39:56] [ReconciliationAgent] Field: 'Payment Terms' | Status: DONE | Latency: 0ms
+
+[06:40:00] [ValidatorAgent] Field: 'Payment Terms' | Status: DONE | Latency: 3472ms
+
