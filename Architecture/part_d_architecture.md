@@ -1,6 +1,5 @@
 # Part D — Structured Information Extraction
 
-> **Status**: Finalized  
 > **Scope**: Output schema, extraction prompts, addendum reconciliation, confidence scoring, output writer
 
 ---

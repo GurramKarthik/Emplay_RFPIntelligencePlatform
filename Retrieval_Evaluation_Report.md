@@ -1,7 +1,7 @@
 # Retrieval Evaluation Report (Optimized Queries)
 
 ## Overview
-This report evaluates the search engine's retrieval quality across three different configurations using a dataset of 15 Question-Passage pairs covering both `Bid1` and `Bid2`.
+This report evaluates the search engine's retrieval quality across three different configurations using a small evaluation dataset of 15 Question-Passage pairs covering both `Bid1` and `Bid2`. You can find these exact 15 questions used for the evaluation in the **[`eval/qa_pairs.json`](./eval/qa_pairs.json)** file.
 
 By using highly optimized, keyword-rich queries (simulating the behavior of our `Query Understander Agent`), we achieve over 80% accuracy without needing an LLM-as-a-judge.
 

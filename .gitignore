@@ -18,9 +18,7 @@ env/
 
 # Data & outputs (large files)
 data/
-output/
-logs/
-input/
+
 
 # Logs & Traces
 *.log

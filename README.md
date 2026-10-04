@@ -47,11 +47,14 @@ Emplay_RFPIntelligencePlatform/
 └── main.py                 # CLI Entrypoint
 ```
 
+# Results & Deliverables
 
-# Evaluation & Metrics
-To review the empirical performance and accuracy of our Hybrid Search vs Vector-Only Search, please refer to the dedicated **[Retrieval Evaluation Report](./Retrieval_Evaluation_Report.md)**. 
+- **Structured Output (JSON):** The system successfully extracts 20 highly structured data fields from complex, unstructured RFPs (including those with addendums). You can view the exact AI-generated extractions for the test bids in the `./output/` directory (e.g., `Bid1_output.json`, `Bid2_output.json`).
+- **Retrieval Evaluation Report:** To review the empirical performance and accuracy of our Hybrid Search vs Vector-Only Search, please refer to the dedicated **[Retrieval Evaluation Report](./Retrieval_Evaluation_Report.md)**.  This report details our exact hit-rate metrics, testing methodology (using the `eval/run_eval.py` script), and explains the concrete data behind why we chose the Hybrid + Cross-Encoder architecture to achieve maximum extraction precision.
+- **QA Semantic Search:** The QA Agent successfully parses conversational queries and grounds its answers precisely in the vector database. For a comprehensive demonstration of 10 real-world queries and their exact chunk citations, please review the **[Sample Q&A Log](./Sample_QA_Log.md)**.
+- **Agent Observability Trace:** To see exactly how the LangGraph orchestrator delegates work between the Retrieval, Extraction, Reconciliation, and Validation agents, please view the **[Sample Agent Trace](./logs/Sample_Agent_Trace.log)**. It demonstrates a perfectly clean "happy path" extraction flow.
+- **Comprehensive Unit Tests:** We've implemented automated unit tests verifying the integrity of the data pipeline (Part A), hybrid retriever (Part B), and agent orchestrator (Part C). Refer to the **[Running Unit Tests](#5-running-unit-tests)** section below for details on how to run them.
 
-This report details our exact hit-rate metrics, testing methodology (using the `eval/run_eval.py` script), and explains the concrete data behind why we chose the Hybrid + Cross-Encoder architecture to achieve maximum extraction precision.
 
 ## 2. How to Setup the System
 
@@ -209,6 +212,12 @@ In addition to the automated batch extraction flow, the LangGraph orchestrator h
 **Clean Observability Logging**
 To maintain production-grade observability without the overhead of external tools like LangSmith, the orchestrator features a custom trace logger. Every action taken by the agents (Retrieval, Extraction, Validation) is recorded with execution latency, status, and precise output into a highly readable, formatted text log (e.g., `logs/BidX_agent_trace.log`). This allows developers to open a single clean file to instantly trace the exact chain of thought and execution time of the entire multi-agent system.
 
+**Anti-Hallucination Guardrails & Error Handling**
+To guarantee high fidelity and prevent the LLM from hallucinating, the system employs strict architectural guardrails:
+- **Strict Grounding:** The Extraction Agent is explicitly prompted to return `null` if the exact requested value is not present in the retrieved chunks. It is strictly forbidden from inferring or guessing.
+- **Schema Enforcement:** Every output must strictly adhere to a defined Pydantic schema. If the LLM returns malformed JSON or invalid types, a custom error handler catches the `ValidationError` and instructs the LangGraph state machine to automatically retry the extraction.
+- **Confidence Thresholds:** The AI must assign a confidence score to its own extraction. The Validator Agent acts as a final gatekeeper, forcefully failing and looping the field back for retry if the confidence score drops below the minimum acceptable threshold.
+
 👉 **Deep Dive:** For a comprehensive technical breakdown of this process, see [Part C Architecture](./Architecture/part_c_architecture.md).
 ### Part D: Reconciliation & Output Generation
 **1. Technology & Libraries Used**
@@ -230,4 +239,16 @@ Finally, the validated and reconciled data is serialized via Pydantic into a cle
 
 ---
 
+## 5. Running Unit Tests
 
+To ensure the core pipeline logic remains stable, we have implemented automated unit tests for Parts A, B, and C. The tests utilize `pytest` and mock external dependencies (like the LLM) to guarantee they run blazingly fast without incurring API costs.
+
+You can run the entire test suite from the root directory:
+```bash
+pytest tests/ -v
+```
+
+**What is tested?**
+- `test_part_a.py`: Verifies the Markdown/table chunker accurately splits rows while retaining headers.
+- `test_part_b.py`: Mocks Qdrant to ensure the Hybrid Retriever properly fuses BM25 and Dense scores.
+- `test_part_c.py`: Mocks the LangGraph state machine to verify the Error Handler correctly triggers retries when the Validator Agent flags low confidence.

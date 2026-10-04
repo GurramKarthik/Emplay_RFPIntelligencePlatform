@@ -1,6 +1,6 @@
 # Part A — Document Ingestion & Parsing
 
-> **Status**: Finalized  
+
 > **Scope**: File parsing, failure tracking, chunking, local storage before vector DB injection
 
 ---

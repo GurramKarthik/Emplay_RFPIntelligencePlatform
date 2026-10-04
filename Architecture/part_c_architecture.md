@@ -1,6 +1,6 @@
 # Part C — Multi-Agent System
 
-> **Status**: Finalized  
+
 > **Scope**: LangGraph agents, shared state, orchestration, error handling, observability
 
 ---

@@ -1,6 +1,6 @@
 # Part B — RAG Search Engine
 
-> **Status**: Finalized  
+
 > **Scope**: Indexing, hybrid retrieval, RRF merging, reranking, query understanding, citations
 
 ---
