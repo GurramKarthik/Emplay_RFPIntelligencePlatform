@@ -189,10 +189,16 @@
       "notes": "The solicitation states that only Master Contractors awarded a contract under the Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007, are eligible to submit a bid."
     },
     "Model_no": {
-      "value": null,
-      "sources": [],
-      "confidence": 1.0,
-      "notes": "Not found in documents"
+      "value": "Dell Latitude 5550, WD22TB4",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "bid22a__PORFP_-_Dell_Laptop_Final.pdf__3__26"
+        }
+      ],
+      "notes": "Extracted the model number/part number 'SI# CC7802' associated with the Dell Latitude 5550 and Dell Thunderbolt 4 Dock from the product table in the scope of work."
     },
     "Part_no": {
       "value": "SI# CC7802",
