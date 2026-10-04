@@ -54,6 +54,7 @@ Emplay_RFPIntelligencePlatform/
 - **QA Semantic Search:** The QA Agent successfully parses conversational queries and grounds its answers precisely in the vector database. For a comprehensive demonstration of 10 real-world queries and their exact chunk citations, please review the **[Sample Q&A Log](./Sample_QA_Log.md)**.
 - **Agent Observability Trace:** To see exactly how the LangGraph orchestrator delegates work between the Retrieval, Extraction, Reconciliation, and Validation agents, please view the **[Sample Agent Trace](./logs/Sample_Agent_Trace.log)**. It demonstrates a perfectly clean "happy path" extraction flow.
 - **Comprehensive Unit Tests:** We've implemented automated unit tests verifying the integrity of the data pipeline (Part A), hybrid retriever (Part B), and agent orchestrator (Part C). Refer to the **[Running Unit Tests](#5-running-unit-tests)** section below for details on how to run them.
+- **Live System Demo Video:** To see the entire pipeline in action, including the CLI extraction and Streamlit UI, please view the **[Full System Demo Video (Google Drive)](https://drive.google.com/drive/folders/1VJMfMs_mdOBLcf_c-yoa4RBH5fsLpbPF?usp=sharing)**.
 
 
 ## 2. How to Setup the System
